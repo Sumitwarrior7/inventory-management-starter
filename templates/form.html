@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask and SQLite</title>
+  </head>
+  <body>
+    <form method="POST">
+      <label>Enter Item Name:</label>
+      <input
+        type="text"
+        name="name"
+        placeholder="Enter item name"
+        required
+      /><br />
+      <label>Enter Quantity:</label>
+      <input
+        type="number"
+        name="quantity"
+        placeholder="Enter quantity"
+        required
+      /><br />
+      <label>Enter Price:</label>
+      <input
+        type="number"
+        step="0.01"
+        name="price"
+        placeholder="Enter price"
+        required
+      /><br />
+      <input type="submit" value="Submit" /><br />
+    </form>
+  </body>
+</html>
